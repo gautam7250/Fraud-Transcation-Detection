@@ -1,1 +1,1 @@
-web: gunicorn {{ Fraud-Transcation-Detection }}.wsgi
+web: gunicorn {{fraud-transcation-detection}}.wsgi
