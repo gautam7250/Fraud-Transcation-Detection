@@ -77,15 +77,10 @@ WSGI_APPLICATION = 'Fraud_Transcation_Detection.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': 'd9i4ue9gksvrl0',
-        'HOST': 'ec2-34-234-12-149.compute-1.amazonaws.com',
-        'PORT': 5432,
-        'USER': 'kusyqvezccnncw',
-        'PASSWORD': '3600f618042e3c6fd658d68d1b8e46a7d572e2b438e94f1ea84dabb82e26ce35',
+        'NAME': BASE_DIR / 'db.sqlite3',
 
     }
 }
-# postgres://kusyqvezccnncw:3600f618042e3c6fd658d68d1b8e46a7d572e2b438e94f1ea84dabb82e26ce35@ec2-34-234-12-149.compute-1.amazonaws.com:5432/d9i4ue9gksvrl0
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
 
