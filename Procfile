@@ -1,1 +1,1 @@
-web: gunicorn {{ manage.py }}.wsgi
+web: gunicorn {{Fraud-Transcation-Detection}}.wsgi
