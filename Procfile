@@ -1,1 +1,1 @@
-web: gunicorn {{fraud-transcation-detection}}.wsgi
+web: sh setup.sh && streamlit run manage.py
